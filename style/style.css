@@ -1,0 +1,168 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    min-width: 120px;
+    width: 15%;
+    background-color: rgb(56, 187, 56);
+    padding: 10px 20px 0px;
+}
+
+.menu li{
+    font-weight: bold;
+    list-style: none;
+    padding: 4px;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background-image: url("../img/nurse-voltamax.jpg");
+    background-size:contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    align-content: space-around;
+    background-color: white;
+    min-width: 530px;
+    height: 170px;
+}
+
+
+#header-sobre{
+    height: 360px;
+    background-image: url("../img/benyamin-bohlouli-vVKh9xeLub4-unsplash.jpg");
+    background-size:cover;
+}
+#header-contato{
+    height: 360px;
+    background-image: url("../img/benyamin-bohlouli-LQ698TTvGpA-unsplash.jpg");
+    background-size:cover;
+}
+
+#header-horario{
+    height: 360px;
+    background-image: url("../img/benyamin-bohlouli-e7MJLM5VGjY-unsplash.jpg");
+    background-size:cover;
+}
+
+
+#logo {
+    align-content: flex-start;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+#name{
+    font-style: italic;
+    color: rgb(56, 187, 56);
+    padding-left: 5px;
+    padding-top: 34px;
+}
+#name a {
+    color: rgb(56, 187, 56);
+    text-decoration: none;
+}
+
+.content {
+    display: block;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content #mapa{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content #background-404 {
+    width: 100%;
+}
+
+
+.footer {
+    min-width: 530px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 0, 0, 0.829);
+    min-height: 150px;
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer li {
+    padding: 2px;
+}
+
+.footer li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.ajuda h4{
+    text-align: center;
+}
+
+
+legend{
+    font-weight: bold;
+}
+
+fieldset{
+    margin: 15px, 0;
+    border-radius: 10px;
+    border-color: rgb(56, 187, 56);
+}
+
+label{
+    text-align: right;
+    width: 100px;
+    padding-right: 5px;
+    display: inline-block;
+    padding: 5px;
+}
+
+table {
+    border: solid 1px black;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: rgb(204, 212, 204);
+}
+
+table thead {
+    background-color: rgb(56, 187, 56);
+}
+
+table tbody tr:hover td{
+    background-color: lightskyblue;
+}
